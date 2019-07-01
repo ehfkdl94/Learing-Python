@@ -73,7 +73,13 @@ print(a)
 
 a = list(range(5, -10, -2))
 print(a)
-'''
+'
 a = int(input())
 x = tuple(range(-10, 10, a))
 print(x)
+'''
+year = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
+population = [10249679, 10195318, 10143645, 10103233, 10022181, 9930616, 9857426, 9838892]
+
+print(year[5:8])
+print(population[5:8])

@@ -1,3 +1,4 @@
+'''
 a = [0, 20, 30, 40, 50, 60, 70, 80, 90]
 print(30 in a)
 print(100 in a)
@@ -34,3 +35,19 @@ print(len(hello))
 
 hello = '안녕하세요'
 print(len(hello))
+
+year = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
+population = [10249679, 10195318, 10143645, 10103233, 10022181, 9930616, 9857426, 9838892]
+
+print(year[5:8])
+print(population[5:8])
+'''
+'''
+x = str(input().split())
+y = str(input().split())
+z =x[3:len(x)-2:2] + y[2:len(y)-2:2]
+print(z)
+'''
+x = input()
+y = input()
+print(x[1::2] + y[::2])

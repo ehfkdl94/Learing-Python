@@ -45,7 +45,6 @@ if age >= 7:
         balance -=1050
     elif age>=19:
         balance -= 1250
-    else:
-        pass
+
 
 print(balance)

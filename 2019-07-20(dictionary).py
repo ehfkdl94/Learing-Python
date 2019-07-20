@@ -104,3 +104,16 @@ terrestrial_planet = {
 }
 
 print(terrestrial_planet['Venus']['mean_radius'])
+
+x = {'a': 0, 'b': 0, 'c': 0, 'd': 0}
+y = x
+print(x is y)
+
+y['a'] = 99
+print(x)
+print(y)
+
+c = list(input())
+print(len(c))
+for i in len(c):
+    print("'", c[i], "'", sep='')
